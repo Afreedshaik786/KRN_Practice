@@ -1,0 +1,24 @@
+package com.krn.actitime.tasks;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+import com.krn.actitime.testbase.BaseClass;
+
+import KRN_Practice.ExcelLibrary;
+
+public class CreateCustomer extends BaseClass {
+	@Test
+	public void testCreateCustomer() throws Throwable {
+		driver.findElement(By.xpath("//div[text()='Tasks']")).click();
+		driver.findElement(By.xpath("//div[text()='Add New']")).click();
+		driver.findElement(By.xpath("//div[text()='New Customer']")).click();
+		ExcelLibrary xlib = new ExcelLibrary();
+		String custName = xlib.getExcelData("CreateCustomer", 1, 0);
+			
+		driver.findElement(By.xpath("(//input[@placeholder='Enter Customer Name'])[2]")).sendKeys(custName);
+		driver.findElement(By.xpath("//textarea[@placeholder='Enter Customer Description']")).sendKeys("This is a test");
+		driver.findElement(By.xpath("//div[text()='Create Customer']")).click();
+		
+	}
+}

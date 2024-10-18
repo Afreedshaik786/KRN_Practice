@@ -1,0 +1,25 @@
+package KRN_Practice;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class DemoLoginLogout {
+
+	public static void main(String[] args) throws Throwable {
+
+		
+
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.google.co.in/");
+		ExcelLibrary xlib = new ExcelLibrary();
+		String un = xlib.getExcelData("Sheet1", 1, 0);
+		System.out.println(un);
+
+		String pwd = xlib.getExcelData("Sheet1", 1, 1);
+		System.out.println(pwd);
+
+
+	}
+
+}

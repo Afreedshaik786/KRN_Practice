@@ -1,0 +1,12 @@
+package com.krn.actitime.pageclass;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class TaskPage {
+
+	public void clickOnTask(driver) {
+		driver.findElement(By.xpath("//div[text()='Tasks']")).click();
+	}
+
+}

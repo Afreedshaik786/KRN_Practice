@@ -1,0 +1,9 @@
+package com.krn.actitime.pageclass;
+
+public class TaskPage {
+
+	public void clickOnTask() {
+
+	}
+
+}

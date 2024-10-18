@@ -1,0 +1,12 @@
+package KRN_Practice;
+
+public class DemoLoginLogout {
+
+	public static void main(String[] args) throws Throwable {
+
+		ExcelLibrary xlib = new ExcelLibrary();
+		xlib.getExcelData("Sheet1", 1, 0);
+
+	}
+
+}

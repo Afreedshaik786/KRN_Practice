@@ -1,0 +1,22 @@
+package demo;
+
+import org.testng.Reporter;
+import org.testng.annotations.Test;
+
+public class Customer {
+	@Test
+	public void createCustomer() {
+		System.out.println("create customer");
+	}
+
+	@Test
+	public void editCustomer() {
+		Reporter.log("edit Customer");
+	}
+
+	@Test
+	public void deleteCustomer() {
+		Reporter.log("delete Customer");
+	}
+
+}

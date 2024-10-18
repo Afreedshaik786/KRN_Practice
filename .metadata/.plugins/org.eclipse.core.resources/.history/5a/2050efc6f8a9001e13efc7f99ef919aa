@@ -1,0 +1,8 @@
+package Practice;
+
+public class testNGPractice {
+	public void sample() {
+		System.out.println("hi");
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.krn.actitime.tasks;
+
+import org.testng.annotations.Test;
+
+import com.krn.actitime.testbase.BaseClass;
+
+public class DeleteCustomer extends BaseClass {
+	@Test
+	public void testDeleteCustomer() {
+		
+	}
+}

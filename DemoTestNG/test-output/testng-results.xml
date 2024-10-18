@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-09T13:33:29 IST" name="Default suite" finished-at="2024-10-09T13:33:29 IST" duration-ms="90">
+    <groups>
+    </groups>
+    <test started-at="2024-10-09T13:33:29 IST" name="Default test" finished-at="2024-10-09T13:33:29 IST" duration-ms="90">
+      <class name="demo.User">
+        <test-method signature="createUser()[pri:0, instance:demo.User@10feca44]" started-at="2024-10-09T13:33:29 IST" name="createUser" finished-at="2024-10-09T13:33:29 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="editUser()[pri:0, instance:demo.User@10feca44]" started-at="2024-10-09T13:33:29 IST" name="editUser" finished-at="2024-10-09T13:33:29 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editUser -->
+        <test-method signature="deleteUser()[pri:0, instance:demo.User@10feca44]" started-at="2024-10-09T13:33:29 IST" name="deleteUser" finished-at="2024-10-09T13:33:29 IST" depends-on-methods="demo.User.editUser" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- demo.User -->
+      <class name="demo.Report">
+        <test-method signature="createReport()[pri:0, instance:demo.Report@24fcf36f]" started-at="2024-10-09T13:33:29 IST" name="createReport" finished-at="2024-10-09T13:33:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReport -->
+      </class> <!-- demo.Report -->
+      <class name="demo.Customer">
+        <test-method signature="editCustomer()[pri:0, instance:demo.Customer@247d8ae]" started-at="2024-10-09T13:33:29 IST" name="editCustomer" finished-at="2024-10-09T13:33:29 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editCustomer -->
+        <test-method signature="createCustomer()[pri:0, instance:demo.Customer@247d8ae]" started-at="2024-10-09T13:33:29 IST" name="createCustomer" finished-at="2024-10-09T13:33:29 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method signature="deleteCustomer()[pri:0, instance:demo.Customer@247d8ae]" started-at="2024-10-09T13:33:29 IST" name="deleteCustomer" finished-at="2024-10-09T13:33:29 IST" depends-on-methods="demo.Customer.editCustomer" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+      </class> <!-- demo.Customer -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

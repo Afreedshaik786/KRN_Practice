@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-19T12:10:34 IST" name="Surefire suite" finished-at="2024-01-19T12:10:56 IST" duration-ms="22282">
+    <groups>
+      <group name="SmokeSuite">
+        <method signature="createContactTests.createContactWithlastName()[pri:0, instance:ContactsTests.createContactTests@5a955565]" name="createContactWithlastName" class="ContactsTests.createContactTests"/>
+      </group> <!-- SmokeSuite -->
+    </groups>
+    <test started-at="2024-01-19T12:10:34 IST" name="Surefire test" finished-at="2024-01-19T12:10:56 IST" duration-ms="22282">
+      <class name="ContactsTests.createContactTests">
+        <test-method is-config="true" signature="bsconfig()[pri:0, instance:ContactsTests.createContactTests@5a955565]" started-at="2024-01-19T12:10:34 IST" name="bsconfig" finished-at="2024-01-19T12:10:34 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsconfig -->
+        <test-method is-config="true" signature="bcconfig()[pri:0, instance:ContactsTests.createContactTests@5a955565]" started-at="2024-01-19T12:10:34 IST" name="bcconfig" finished-at="2024-01-19T12:10:39 IST" duration-ms="4911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcconfig -->
+        <test-method is-config="true" signature="bmconfig()[pri:0, instance:ContactsTests.createContactTests@5a955565]" started-at="2024-01-19T12:10:39 IST" name="bmconfig" finished-at="2024-01-19T12:10:43 IST" duration-ms="3454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmconfig -->
+        <test-method signature="createContactWithlastName()[pri:0, instance:ContactsTests.createContactTests@5a955565]" started-at="2024-01-19T12:10:43 IST" name="createContactWithlastName" finished-at="2024-01-19T12:10:53 IST" duration-ms="10648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithlastName -->
+        <test-method is-config="true" signature="amconfig()[pri:0, instance:ContactsTests.createContactTests@5a955565]" started-at="2024-01-19T12:10:53 IST" name="amconfig" finished-at="2024-01-19T12:10:56 IST" duration-ms="2753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amconfig -->
+        <test-method is-config="true" signature="acconfig()[pri:0, instance:ContactsTests.createContactTests@5a955565]" started-at="2024-01-19T12:10:56 IST" name="acconfig" finished-at="2024-01-19T12:10:56 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acconfig -->
+        <test-method is-config="true" signature="asconfig()[pri:0, instance:ContactsTests.createContactTests@5a955565]" started-at="2024-01-19T12:10:57 IST" name="asconfig" finished-at="2024-01-19T12:10:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asconfig -->
+      </class> <!-- ContactsTests.createContactTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

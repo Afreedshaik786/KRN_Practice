@@ -1,0 +1,23 @@
+package demo;
+
+import org.testng.annotations.Test;
+
+public class Customer {
+
+	@Test(priority = 2)
+	public void createCustomer() {
+		System.out.println("create customer");
+	}
+
+	@Test(priority = 1)
+	public void editCustomer() {
+		System.out.println("Edit Customer");
+	}
+
+	@Test(priority = 0)
+	public void deleteCustomer() {
+		System.out.println("Delete customer");
+
+	}
+
+}

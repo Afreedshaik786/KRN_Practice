@@ -1,0 +1,15 @@
+package com.krn.actitime.tasks;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+import com.krn.actitime.testbase.BaseClass;
+
+public class DeleteCustomer extends BaseClass {
+	@Test
+	public void testDeleteCustomer() {
+		driver.findElement(By.xpath("//div[text()='Tasks']")).click();
+		driver.findElement(By.xpath("(//input[@placeholder='Start typing name ...'])[1]")).sendKeys("");
+		driver.findElement(By.xpath("(//div[text()='ahamad'])[1]/../..//div[text()='editButton']")).click();
+	}
+}
